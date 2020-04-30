@@ -16,7 +16,7 @@ END;
 
 $gif_html = <<< END
 <style type="text/css">
-.firstDiv {
+.centered {
     width: 500px;
   
     position: fixed;
