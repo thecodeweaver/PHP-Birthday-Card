@@ -32,7 +32,18 @@ $gif_html = <<< END
 </div>
 END;
 
+$body_css = <<< END
+<style>
+    body {
+        background-color: #0066ff;
+    }
+</style>
+END;
+
 echo "<head><title>Happy Birthday Mom!</title></head>";
+echo $body_css;
+echo "<body>";
 echo $birthday_banner;
 echo $gif_html;
+echo "</body>";
 ?>
