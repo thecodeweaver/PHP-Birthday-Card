@@ -47,9 +47,9 @@
 
 <?php
 # Grab a random GIF from Giphy
-require_once('vendor/autoload.php'); 
+require_once('./vendor/autoload.php'); 
 
-$api_client = new GPH\Api\DefaultAPI();
+$api_client = new GPH\Api\DefaultApi();
 $api_key = "oTn3BUxnNuwiHwSElgoVANoKX8Ru0b3d";
 $query = "birthday";
 $format = "json";
