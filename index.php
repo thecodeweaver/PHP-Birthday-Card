@@ -36,11 +36,10 @@ $format = "json";
 
 try {
     $result = $api_client->gifsRandomGet($api_key, $query, $rating, $format);
-    
-    $gif = $result->data;
-    $url = $gif->image_url;
+    print_r($result);
+    echo "\n" . $result->data->image_original_url . "\n";
 
-    echo "<img src=\"$url\" alt=\"Random Birthday GIF\">";
+    # echo "<img src=\"$url\" alt=\"Random Birthday GIF\">";
 } catch (Exception $e) {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
