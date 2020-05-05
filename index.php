@@ -55,7 +55,7 @@ $query = "birthday";
 $format = "json";
 
 try {
-    $result = $api_instance->gifsRandomGet($api_key, $query, $format);
+    $result = $api_client->gifsRandomGet($api_key, $query, $format);
     print_r($result);
 } catch (Exception $e) {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
