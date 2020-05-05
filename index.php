@@ -52,10 +52,11 @@ require_once('./vendor/autoload.php');
 $api_client = new GPH\Api\DefaultApi();
 $api_key = "oTn3BUxnNuwiHwSElgoVANoKX8Ru0b3d";
 $query = "birthday";
+$rating = "";
 $format = "json";
 
 try {
-    $result = $api_client->gifsRandomGet($api_key, $query, $format);
+    $result = $api_client->gifsRandomGet($api_key, $query, $rating, $format);
     print_r($result);
 } catch (Exception $e) {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
