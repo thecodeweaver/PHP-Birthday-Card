@@ -1,0 +1,14 @@
+{
+    "name": "thecodeweaver/php-birthday-card",
+    "description": "A virtual birthday card in PHP",
+    "type": "project",
+    "require": {
+        "giphy/giphy-php-client": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "thecodeweaver",
+            "email": "44348986+thecodeweaver@users.noreply.github.com"
+        }
+    ]
+}
