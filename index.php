@@ -47,21 +47,17 @@
 
 <?php
 # Grab a random GIF from Giphy
-require_once(__DIR__ . '/vendor/autoload.php'); 
+require_once("/vender/giphy/giphy-php-client/autoload.php"); 
 
 $api_client = new GPH\Api\DefaultAPI();
 $api_key = "oTn3BUxnNuwiHwSElgoVANoKX8Ru0b3d";
 $query = "birthday";
 $format = "json";
 
-echo "Fetching GIF!";
-
 try {
     $result = $api_instance->gifsRandomGet($api_key, $query, $format);
     print_r($result);
-    echo "Success!";
 } catch (Exception $e) {
-    echo "Failure!";
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
 ?>
