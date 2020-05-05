@@ -4,12 +4,6 @@
 <head>
 <title>Happy Birthday Bethany!</title>
 
-<style>
-    body {
-        background-color: ##000000;
-    }
-</style>
-
 <style type="text/css">
 .centered {
     width: 500px;
@@ -21,6 +15,10 @@
   
     background-color: ##000000;
    }
+
+   body {
+        background-color: ##000000;
+    }
 </style>
 
 </head>
@@ -57,8 +55,6 @@
 
 
 </pre>
-
-<?php echo "Fetching random GIF!"; ?>
 
 <div class="centered">
 
