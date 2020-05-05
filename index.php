@@ -36,8 +36,7 @@ $format = "json";
 
 try {
     $result = $api_client->gifsRandomGet($api_key, $query, $rating, $format);
-    $element = "data";
-    print_r($result->$element);
+    var_dump($result);
 
     # echo "<img src=\"$url\" alt=\"Random Birthday GIF\">";
 } catch (Exception $e) {
