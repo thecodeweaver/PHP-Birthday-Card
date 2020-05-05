@@ -45,6 +45,8 @@
 
 </pre>
 
+<div>
+
 <?php
 # Grab a random GIF from Giphy
 require_once('/vendor/autoload.php');
@@ -61,9 +63,6 @@ try {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
 ?>
-
-<div class="centered">
-
 
 </div>
 
