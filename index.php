@@ -5,17 +5,6 @@
 <title>Happy Birthday Bethany!</title>
 
 <style type="text/css">
-.centered {
-    width: 500px;
-  
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
-    background-color: ##000000;
-   }
-
    body {
         background-color: ##000000;
     }
@@ -56,8 +45,6 @@
 
 </pre>
 
-<div class="centered">
-
 <?php
 # Grab a random GIF from Giphy
 require_once('/vendor/autoload.php');
@@ -74,6 +61,9 @@ try {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
 ?>
+
+<div class="centered">
+
 
 </div>
 
