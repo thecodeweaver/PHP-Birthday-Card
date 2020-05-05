@@ -47,7 +47,7 @@
 
 <?php
 # Grab a random GIF from Giphy
-require_once("vendor/giphy/giphy-php-client/autoload.php"); 
+require_once(__DIR__ . '/vendor/autoload.php'); 
 
 $api_client = new GPH\Api\DefaultAPI();
 $api_key = "oTn3BUxnNuwiHwSElgoVANoKX8Ru0b3d";
