@@ -58,7 +58,7 @@
 
 
 <div class="centered">
-<?php echo "Hello Heroku?"; ?>
+Hey there!
 </div>
 
 </html>
