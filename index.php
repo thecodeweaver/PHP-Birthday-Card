@@ -3,13 +3,6 @@
 
 <head>
 <title>Happy Birthday Bethany!</title>
-
-<style type="text/css">
-   body {
-        background-color: ##000000;
-    }
-</style>
-
 </head>
 
 <body>
@@ -57,7 +50,8 @@ $format = "json";
 
 try {
     $result = $api_client->gifsRandomGet($api_key, $query, $rating, $format);
-    print_r($result);
+    
+    echo "<img src=\"$result\" alt=\"Random Birthday GIF\">";
 } catch (Exception $e) {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
