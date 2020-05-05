@@ -45,8 +45,6 @@
 
 </pre>
 
-<div>
-
 <?php
 # Grab a random GIF from Giphy
 require_once('/vendor/autoload.php');
@@ -57,15 +55,13 @@ $query = "birthday";
 $format = "json";
 
 try {
-    $result = $api_instance.gifsRandomGet($api_key, $query, $format);
+    $result = $api_instance->gifsRandomGet($api_key, $query, $format);
     print_r($result);
     echo "Success!";
 } catch (Exception $e) {
     echo "Error loading GIF: " . $e->getMessage() . "\n";
 }
 ?>
-
-</div>
 
 </body>
 
