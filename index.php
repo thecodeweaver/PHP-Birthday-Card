@@ -69,6 +69,8 @@ $api_key = "oTn3BUxnNuwiHwSElgoVANoKX8Ru0b3d";
 $query = "birthday";
 $format = "json";
 
+echo "Fetching random GIF!";
+
 try {
     $result = $api_instance.gifsRandomGet($api_key, $query, $format);
     print_r($result);
