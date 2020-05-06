@@ -12,7 +12,7 @@
 </style>
 
 <style>
-centered {
+.centered {
     width: 500px;
   
     position: fixed;
@@ -26,7 +26,7 @@ centered {
 
 <body>
 
-<pre>
+<pre style="color:white">
 
 
 __    __       ___      .______   .______   ____    ____    .______    __  .______     .___________.__    __   _______       ___   ____    ____  __  
