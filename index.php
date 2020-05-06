@@ -7,7 +7,7 @@
 
 <style>
     body {
-        background-color:  "color:grey";
+        background-color:  #c2c2d6;
     }
 </style>
 
