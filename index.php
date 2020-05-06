@@ -62,6 +62,8 @@ try {
 ?>
 </div>
 
+<?php echo "<p style=\"color:white\">Reload the page for a different GIF!</p>"; ?>
+
 </body>
 
 </html>
